@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --black-gradient: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  --black-gradient: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #1d1910 91.61%);
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
@@ -22,7 +22,7 @@
 }
 
 .bg-main-gradient {
-  background: linear-gradient(157.81deg, #faf3de -43.27%, #f5e4be -21.24%, #f0d69d 12.19%, #ebc87d 29.82%, #e6ba5c 51.94%, #cf9e33 90.29%);
+  background: linear-gradient(157.81deg, #faf3de -43.27%, #f5e4be -21.24%, #f0d69d 12.19%, #ebc87d 29.82%, #e6ba5c 51.94%, #cf9833 90.29%);
 }
 
 .bg-black-gradient {
@@ -95,7 +95,7 @@
 }
 
 .gold__gradient {
-  background: linear-gradient(90deg, #f4e5c4 0%, #fcd467 100%);
+  background: linear-gradient(90deg, #f4e5c4 0%, #fcc067 100%);
   filter: blur(900px);
 }
 
