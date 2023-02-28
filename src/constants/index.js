@@ -27,19 +27,19 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
-    content: "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Recommended",
+    content: "Program Trading paling efektif menghasilkan profit tanpa harus trading sendiri.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
-    content: "We take proactive steps make sure your information and transactions are secure.",
+    title: "Jaminan Keamanan Dana",
+    content: "Trading dihandle oleh seorang expert dan support broker terpercaya menjamin keamanan modal anda.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Profit Lebih Stabil",
     content: "A balance transfer credit card can save you a lot of money in interest charges.",
   },
 ];
