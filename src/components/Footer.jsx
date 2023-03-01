@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "../style";
-import { logo, facebook, instagram } from "../assets";
+import React from 'react';
+import styles from '../style';
+import { logo, facebook, instagram } from '../assets';
 
 const Footer = () => {
   return (
@@ -10,12 +10,12 @@ const Footer = () => {
           <a href="/">
             <img src={logo} alt="pamm-fibox-trading-forex" className="w-[220px] object-contain" />
           </a>
-          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>A new way to make the payments easy, realiable and secure.</p>
+          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Trading forex dengan transparan, terkontrol, dan terjamin.</p>
         </div>
 
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">Partner</h4>
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">Support</h4>
             <ul className="list-none mt-4">
               <li className="font-poppins font-normal text-[16px] mb-3 text-dimWhite duration-300 cursor-pointer hover:text-secondary">
                 <a href="https://ts-markets.com/" target="_blank">
