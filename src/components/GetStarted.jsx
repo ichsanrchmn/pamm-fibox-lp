@@ -1,11 +1,11 @@
-import React from 'react';
-import styles from '../style';
-import { arrowUp } from '../assets';
-import { navLinks } from '../constants';
-import { Link } from 'react-scroll';
+import React from "react";
+import styles from "../style";
+import { arrowUp } from "../assets";
+import { navLinks } from "../constants";
+import { Link } from "react-scroll";
 
 const GetStarted = () => (
-  <Link to={navLinks.find((link) => link.id === 'pricing').id} smooth={true} duration={500}>
+  <Link to={navLinks.find((link) => link.id === "introduction").id} smooth={true} duration={500}>
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-main-gradient p-[2px] cursor-pointer`}>
       <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full hover:bg-transparent duration-300`}>
         <div className={`${styles.flexStart} flex-row`}>

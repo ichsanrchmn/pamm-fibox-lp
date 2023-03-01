@@ -1,195 +1,84 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from '../assets';
+import { send, shield, star, support, metaquotes, metatrader4, mql5 } from "../assets";
 
 export const navLinks = [
   {
-    id: 'home',
-    title: 'Home',
+    id: "overview",
+    title: "Overview PAMM",
   },
   {
-    id: 'features',
-    title: 'Features',
+    id: "portfolio",
+    title: "Portfolio",
   },
   {
-    id: 'product',
-    title: 'Product',
+    id: "introduction",
+    title: "Introduction",
   },
   {
-    id: 'pricing',
-    title: 'Pricing',
+    id: "clients",
+    title: "Testimoni",
   },
   {
-    id: 'clients',
-    title: 'Clients',
+    id: "contact",
+    title: "Hubungi Kami",
   },
 ];
 
 export const features = [
   {
-    id: 'feature-1',
+    id: "feature-1",
     icon: star,
-    title: 'Recommended',
-    content: 'Program Trading paling efektif menghasilkan profit tanpa harus trading sendiri.',
+    title: "Program user-friendly",
+    content: "Program yang dirancang untuk memudahkan Anda dalam melakukan trading forex tanpa harus melakukannya sendiri.",
   },
   {
-    id: 'feature-2',
+    id: "feature-2",
     icon: shield,
-    title: 'Jaminan Keamanan Dana',
-    content: 'Trading dihandle oleh seorang expert dan support broker terpercaya menjamin keamanan modal anda.',
+    title: "Transparan, Terkontrol & Terjamin",
+    content: "Proses trading yang mengedepankan transparansi untuk menjamin keamanan modal Anda.",
   },
   {
-    id: 'feature-3',
+    id: "feature-3",
     icon: send,
-    title: 'Profit Lebih Stabil',
-    content: 'A balance transfer credit card can save you a lot of money in interest charges.',
-  },
-];
-
-export const feedback = [
-  {
-    id: 'feedback-1',
-    content: 'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
-    name: 'Herman Jensen',
-    title: 'Founder & Leader',
-    img: people01,
+    title: "No Money Game",
+    content: "Bukan investasi abal-abal. Mengutamakan teknik trading yang efektif dan efisien, sudah teruji keamanannya dengan portofolio yang bisa diakses secara langsung.",
   },
   {
-    id: 'feedback-2',
-    content: "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: 'Steve Mark',
-    title: 'Founder & Leader',
-    img: people02,
-  },
-  {
-    id: 'feedback-3',
-    content: 'It is usually people in the money business, finance, and international trade that are really rich.',
-    name: 'Kenn Gallagher',
-    title: 'Founder & Leader',
-    img: people03,
+    id: "feature-4",
+    icon: support,
+    title: "Tim support yang profesional dan responsif",
+    content: "Tim support yang siap membantu dalam setiap langkah trading; dari mulai membuka akun, melakukan deposit, hingga menarik dana keuntungan setiap harinya.",
   },
 ];
 
 export const stats = [
   {
-    id: 'stats-1',
-    title: 'Total Investor',
-    value: '100+',
+    id: "stats-1",
+    title: "Total Investor",
+    value: "100+",
   },
   {
-    id: 'stats-2',
-    title: 'Total Profit',
-    value: '$100K++',
+    id: "stats-2",
+    title: "Total Profit",
+    value: "$100K++",
   },
   {
-    id: 'stats-3',
-    title: 'Winrate Per Trade',
-    value: '99%',
-  },
-];
-
-export const footerLinks = [
-  {
-    title: 'Useful Links',
-    links: [
-      {
-        name: 'Content',
-        link: 'https://www.hoobank.com/content/',
-      },
-      {
-        name: 'How it Works',
-        link: 'https://www.hoobank.com/how-it-works/',
-      },
-      {
-        name: 'Create',
-        link: 'https://www.hoobank.com/create/',
-      },
-      {
-        name: 'Explore',
-        link: 'https://www.hoobank.com/explore/',
-      },
-      {
-        name: 'Terms & Services',
-        link: 'https://www.hoobank.com/terms-and-services/',
-      },
-    ],
-  },
-  {
-    title: 'Community',
-    links: [
-      {
-        name: 'Help Center',
-        link: 'https://www.hoobank.com/help-center/',
-      },
-      {
-        name: 'Partners',
-        link: 'https://www.hoobank.com/partners/',
-      },
-      {
-        name: 'Suggestions',
-        link: 'https://www.hoobank.com/suggestions/',
-      },
-      {
-        name: 'Blog',
-        link: 'https://www.hoobank.com/blog/',
-      },
-      {
-        name: 'Newsletters',
-        link: 'https://www.hoobank.com/newsletters/',
-      },
-    ],
-  },
-  {
-    title: 'Partner',
-    links: [
-      {
-        name: 'Our Partner',
-        link: 'https://www.hoobank.com/our-partner/',
-      },
-      {
-        name: 'Become a Partner',
-        link: 'https://www.hoobank.com/become-a-partner/',
-      },
-    ],
-  },
-];
-
-export const socialMedia = [
-  {
-    id: 'social-media-1',
-    icon: instagram,
-    link: 'https://www.instagram.com/',
-  },
-  {
-    id: 'social-media-2',
-    icon: facebook,
-    link: 'https://www.facebook.com/',
-  },
-  {
-    id: 'social-media-3',
-    icon: twitter,
-    link: 'https://www.twitter.com/',
-  },
-  {
-    id: 'social-media-4',
-    icon: linkedin,
-    link: 'https://www.linkedin.com/',
+    id: "stats-3",
+    title: "Winrate Per Trade",
+    value: "99%",
   },
 ];
 
 export const clients = [
   {
-    id: 'client-1',
-    logo: airbnb,
+    id: "client-1",
+    logo: metatrader4,
   },
   {
-    id: 'client-2',
-    logo: binance,
+    id: "client-2",
+    logo: mql5,
   },
   {
-    id: 'client-3',
-    logo: coinbase,
-  },
-  {
-    id: 'client-4',
-    logo: dropbox,
+    id: "client-3",
+    logo: metaquotes,
   },
 ];

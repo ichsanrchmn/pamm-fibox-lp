@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -110,4 +110,31 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+#partners img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+#partners img:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(105%);
+}
+
+#socials img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: none;
+}
+
+#socials img:hover {
+  opacity: 1;
+  filter: brightness(110%);
+}
+
+.floating-btn:hover {
+  color: #ffffff;
 }

@@ -1,53 +1,24 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import bill from "./portfolio.png";
+import card from "./pamm-fibox.png";
+import logo from "./logoNavbar2.png";
+import robot from "./robot2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
+import metaquotes from "./metaquotes.png";
+import metatrader4 from "./metatrader4.png";
+import support from "./support.svg";
+import mql5 from "./mql5.png";
+import overview from "./overview.jpg";
 import close from "./close.svg";
-import google from "./google.svg";
-import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+import testi1 from "./testi1.jpg";
+import testi2 from "./testi2.jpg";
+import testi3 from "./testi3.jpg";
+import testi4 from "./testi4.jpg";
 
-export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
-  logo,
-  quotes,
-  robot,
-  send,
-  shield,
-  star,
-  menu,
-  close,
-  google,
-  apple,
-  arrowUp,
-  discount,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  people01,
-  people02,
-  people03,
-};
+export { bill, card, logo, robot, send, shield, star, menu, metaquotes, metatrader4, overview, support, mql5, close, arrowUp, discount, facebook, instagram, testi1, testi2, testi3, testi4 };
