@@ -20,7 +20,7 @@ const CardDeal = () => {
           <span className="text-gradient">PAMM Fibox Gold</span> hadir memberikan kemudahan bagi Anda yang ingin mencapai tujuan investasi di pasar Forex. Dapatkan teknik yang efektif, portofolio ter-update, juga transparansi profit yang
           paling sesuai dengan kebutuhan investasi Anda.
         </p>
-        <a href="https://api.whatsapp.com/send?phone=6281850778557&text=Halo%20admin,%20saya%20berminat%20untuk%20join%20PAMM%20Fibox.%20Bagaimana%20caranya?" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=6281250778557&text=Halo%20admin,%20saya%20berminat%20untuk%20join%20PAMM%20Fibox.%20Bagaimana%20caranya?" target="_blank">
           <Button styles="mt-10" text="Join PAMM Fibox Sekarang!" />
         </a>
       </div>

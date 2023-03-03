@@ -19,7 +19,7 @@ const CTA = () => {
       </div>
 
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-        <a href="https://api.whatsapp.com/send?phone=6281850778557&text=Halo%20admin,%20saya%20berminat%20untuk%20join%20PAMM%20Fibox.%20Bagaimana%20caranya?" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=6281250778557&text=Halo%20admin,%20saya%20berminat%20untuk%20join%20PAMM%20Fibox.%20Bagaimana%20caranya?" target="_blank">
           <Button text="Gabung Sekarang" />
         </a>
       </div>
